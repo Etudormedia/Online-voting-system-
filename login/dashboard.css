@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#logo{
+    height: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    margin-top: 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 3rem;
+
+}
+.fathercon{
+max-width: 50vw;
+}
+h3{
+    padding-top: 1rem;
+}
+.buttons{
+        margin-left: 30rem;
+        gap: 5rem;
+}
+.btn{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+.col2{
+    padding-top: 5rem;
+    display: flex;
+    padding-left: 3rem;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:; */
+    gap: 10rem;
+}
+.col3{
+    padding-left: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hr{
+    width: 100%;
+    height: 3px;
+    background-color: grey  ;
+    margin-top: 5rem;
+}
+.col-user{
+    position:fixed;
+    margin-left: 50rem;
+    margin-bottom: 10rem;
+}
+
+.profile{
+    padding-bottom: 3rem;
+}
+#bimg{
+    width: 150px;
+    height: 10rem;
+    border-radius: 50%;
+}
+.candidate{
+padding-top: 5rem;
+padding-left: 4rem;
+}
